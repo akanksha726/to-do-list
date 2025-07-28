@@ -10,3 +10,43 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# 📝 To-Do List App
+
+A simple and interactive **To-Do List** built using **React**. Add, delete, and manage your tasks with ease — designed for clean UX and responsive UI.
+
+## 🚀 Features
+
+- ✅ Add new tasks
+- ❌ Delete tasks
+- 📝 Mark tasks as complete/incomplete
+- 💾 Data persists (optional with localStorage)
+- 📱 Responsive design
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) (CRA or Vite)
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- Optionally: LocalStorage for persistence
+
+## 📸 Screenshots
+
+<!-- You can insert screenshots here -->
+![Screenshot](./screenshots/todo-preview.png)
+
+## 📂 Folder Structure 
+
+my-todo-app/
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.js
+│ ├── index.js
+│ └── styles.css
+├── .gitignore
+├── README.md
+└── package.json
+
+
