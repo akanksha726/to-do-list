@@ -44,6 +44,10 @@ my-todo-app/
 ├── src/
 
 │ ├── components/
+    | TodoForm.jsx
+    | TodoItem.jsx
+    | TodoList.jsx
+    
 │ ├── App.js
 │ ├── index.js
 │ └── styles.css
