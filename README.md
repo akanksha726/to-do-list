@@ -1,3 +1,4 @@
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -31,22 +32,23 @@ A simple and interactive **To-Do List** built using **React**. Add, delete, and 
 - JavaScript (ES6+)
 - Optionally: LocalStorage for persistence
 
-## 📸 Screenshots
-
-<!-- You can insert screenshots here -->
-![Screenshot](./screenshots/todo-preview.png)
 
 ## 📂 Folder Structure 
 
 my-todo-app/
+
 ├── public/
+
 ├── src/
+
 │ ├── components/
 │ ├── App.js
 │ ├── index.js
 │ └── styles.css
+
 ├── .gitignore
 ├── README.md
+
 └── package.json
 
 
