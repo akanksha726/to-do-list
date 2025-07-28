@@ -12,6 +12,8 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+![Animated Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzRzazdqcTQzbnBjdGZubnhhdXgwYWRoYmNwbGZicGpldmc5OHhiOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aD2saalBwwftBIY/giphy.gif)
+
 
 # 📝 To-Do List App
 
