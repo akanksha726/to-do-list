@@ -1,0 +1,142 @@
+/* ==== GLOBAL STYLES ==== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1f1f2e);
+  color: #ffffffcc;
+  cursor: url('https://cur.cursors-4u.net/cursors/cur-13/cur1110.cur'), auto;
+}
+
+.container {
+  max-width: 500px;
+  height: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px #00ffb366;
+  animation: fadeIn 1s ease-out;
+  
+}
+
+/* ==== HEADINGS ==== */
+h1 {
+  text-align: center;
+  color: #00ffc8;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+/* ==== FORM ==== */
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #1f1f2e;
+  color: #fff;
+  outline: none;
+  box-shadow: inset 0 0 5px #00ffc8aa;
+}
+
+.todo-form button {
+  padding: 10px 16px;
+  background: #00ffc8;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ffc8aa;
+}
+
+.todo-form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffc8, 0 0 40px #00ffc880;
+}
+
+/* ==== LIST ==== */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  animation: slideIn 0.5s ease forwards;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: background 0.3s ease;
+}
+
+.todo-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.todo-item span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.todo-item button {
+  background: transparent;
+  color: #ff4f4f;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.todo-item button:hover {
+  transform: scale(1.2);
+  color: #ff7171;
+}
+
+/* ==== EMPTY STATE ==== */
+.empty {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+/* ==== ANIMATIONS ==== */
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+   .todo-item span span {
+  font-style: italic;
+}
